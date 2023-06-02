@@ -26,7 +26,7 @@
         let title = a["title"];
         let overview = a["overview"];
         let poster_path = "https://image.tmdb.org/t/p/w500" + a["poster_path"];
-        let vote_average = a["vote_average"];
+        let vote_average = "Rating : " + a["vote_average"];
 
         row.innerHTML += `<div class="col" onclick="alert('movie id : '+${id})">
 
